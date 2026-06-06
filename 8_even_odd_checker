@@ -1,0 +1,9 @@
+# Even and Odd checker
+
+# Taking a number from the user
+num = int(input("enter a number: "))
+
+if num % 2 == 0:
+    print("The number is Even ")
+else:
+    print("The number is Odd")

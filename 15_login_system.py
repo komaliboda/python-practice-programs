@@ -1,10 +1,13 @@
-# login system 
 
-user_password = "komali123"
+#--------------------------------------
+#project : login system 
+#Description : checks user password and user name
+#--------------------------------------
 
-password = input("enter your password 🔑 : ")
-
-if user_password == password:
-    print("login successfully")
+username = input("Enter your name : ")
+password = input("Enter your password 🔑: ")
+if username == "komali" and password == "komali123":
+    print("Login successfully ")
+    print("welcome" ,username)
 else:
-    print("wrong password ")
+    print("Invalid username or password")

@@ -5,7 +5,7 @@
 while True:
     password = input("Enter your password  : ")
     if len(password) < 8 :
-        print("password must be 8 charactes long")
+        print("password must be 8 characters long")
     elif password.isalpha() :
         print("password must include numbers ")
     elif password.isdigit():

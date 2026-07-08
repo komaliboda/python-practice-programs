@@ -4,13 +4,13 @@
 weight = int(input("Enter your weight: "))
 height = float(input("Enter your height:  "))
 bmi = weight/(height*height)
-print(bmi)
+print("BMI: ",round(bmi,2)
 if bmi < 18.5:
-    print("under weight ")
+    print("Category: under weight ")
 elif bmi < 24.9:
-    print("Normal")
+    print("Category: Normal")
 elif bmi < 29.9:
-    print("overweight")
+    print("Category: overweight")
 else:
-    print("obese")
+    print("Category: obese")
     

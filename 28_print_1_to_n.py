@@ -1,5 +1,5 @@
 # print 1 to N numbers
 n = int(input("Enter n: "))
-for i in range(1,11):
+for i in range(1,n+1):
     print(i)
     

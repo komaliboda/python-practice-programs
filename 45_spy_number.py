@@ -7,11 +7,11 @@ temp2 = num
 total = 0
 product = 1
 while temp1 > 0:
-    last_digit = temp1%10
+    last_digit = temp1 % 10
     total = total + last_digit
     temp1 //= 10
 while temp2 > 0:
-    last_digit = temp2%10
+    last_digit = temp2 % 10
     product = product * last_digit
     temp2 //= 10
 if total == product:

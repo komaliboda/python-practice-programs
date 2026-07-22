@@ -77,4 +77,11 @@ for i in range(1,6):
         print(num,end = " ")
         num = num+1
     print()
+# Pattern 14: Floyd's Alphabet Triangle
+num = 1
+for i in range(1,6):
+    for j in range(i):
+        print(chr(64+num),end = " ")
+        num = num+1
+    print()
     

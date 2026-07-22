@@ -84,4 +84,12 @@ for i in range(1,6):
         print(chr(64+num),end = " ")
         num = num+1
     print()
+
+# Pattern 15: Repeated Alphabet Triangle
+for i in range(1,6):
+    for j in range(i):
+        print(chr(64+i),end = " ")
+    print()
+    
+
     

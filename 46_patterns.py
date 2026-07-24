@@ -161,6 +161,19 @@ for i in range(3,-1,-1):
     for k in range(2*i+1):
         print("*",end = " ")
     print()
+
+# Pattern 25: Hollow Pyramid Star Pattern
+
+for i in range(1,6):
+    for j in range(5,i,-1):
+        print(" ",end = " ")
+    for k in range(2*i-1):
+        if  k == 0 or k == 2*i-2  or i == 5:
+            print("*",end = " ")
+        else:
+            print(" ",end = " ")
+
+    print()
     
 
     

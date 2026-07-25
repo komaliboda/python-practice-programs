@@ -208,6 +208,29 @@ for i in range(4,0,-1):
         else:
             print(" ", end=" ")
     print()
+
+# Pattern 28: Butterfly Star Pattern
+
+for i in range(4,-1,-1):
+    for j in range(5,i,-1):
+        print('*',end = " ")
+    for k in range(2*i-1):
+        print(" ",end = " ")
+    for l in range(5,i,-1):
+        print("*",end = " ")
+    print()
+
+for i in range(1,5):
+    for j in range(5,i,-1):
+        print('*',end = " ")
+    for k in range(2*i-1):
+        print(" ",end = " ")
+    for l in range(5,i,-1):
+        print("*",end = " ")
+    print()
+
+    
+    
     
 
     

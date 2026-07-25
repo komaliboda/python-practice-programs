@@ -174,6 +174,18 @@ for i in range(1,6):
             print(" ",end = " ")
 
     print()
+
+# Pattern 26: Hollow Inverted Pyramid Star Pattern
+
+for i in range(5,0,-1):
+    for j in range(6,i,-1):
+        print(" ",end = " ")
+    for k in range(2*i-1):
+        if i == 5 or k == 0 or k == 2*i-2:
+            print("*",end = " ")
+        else:
+            print(" ",end = " ")
+    print()
     
 
     

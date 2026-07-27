@@ -238,6 +238,18 @@ for  i in range(1,6):
         else:
             print(" ",end = " ")
     print()
+
+# Pattern 30: X Star Pattern
+
+for i in range(5):
+    for j in range(5):
+        if i == j or i+j == 4:
+            print("*",end = " ")
+        else:
+            print(" ",end = " ")
+    print()
+    
+    
         
     
 

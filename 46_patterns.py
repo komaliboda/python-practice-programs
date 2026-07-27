@@ -257,6 +257,16 @@ for i in range(5):
         else:
             print(" ",end = " ")
     print() 
+
+# Pattern 33: Square with Plus Star Pattern
+
+for i in range(5):
+    for j in range(5):
+        if i == 0 or  j== 0 or i == 4 or j == 4 or i == 2 or j == 2:
+            print("*",end = " ")
+        else:
+            print(" ",end = " ")
+    print()
     
     
         

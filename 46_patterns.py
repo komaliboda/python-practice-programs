@@ -248,6 +248,15 @@ for i in range(5):
         else:
             print(" ",end = " ")
     print()
+# Pattern 32: Square with X Star Pattern
+
+for i in range(5):
+    for j in range(5):
+        if i == 0 or i == 4 or j == 4 or j == 0 or i == j or i+j == 4  :
+            print("*",end = " ")
+        else:
+            print(" ",end = " ")
+    print() 
     
     
         

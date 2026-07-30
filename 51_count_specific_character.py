@@ -6,5 +6,5 @@ count = 0
 for ch in s:
     if ch in specific_char:
         count += 1
-print(count)
+print("The count is :",count)
     

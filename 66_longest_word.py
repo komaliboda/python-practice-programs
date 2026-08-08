@@ -8,5 +8,5 @@ for word in s1:
     if len(word) > max_length:
         max_length = len(word)
         longest_word = word
-print("Longest word is :",longest)
+print("Longest word is :",longest_word)
 print("max Length is :",max_length)

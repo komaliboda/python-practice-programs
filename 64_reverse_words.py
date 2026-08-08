@@ -1,4 +1,5 @@
 # Reverse the order of words in a sentence
+
 s = "i love python"
 s1 = s.split()
 for i in range(len(s1)):

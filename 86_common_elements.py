@@ -2,11 +2,11 @@
 
 num1 = [10,20,40]
 num2 = [20,30,40]
-num = []
+common = []
 
 for i in num1:
     if i in num2:
-        num.append(i)
+        common.append(i)
 
-print(num)
+print(common)
         

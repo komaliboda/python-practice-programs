@@ -4,4 +4,4 @@ with open("student.txt","w") as file:
     print(file.write("komali"))
 
 import os
-os.rename("student.txt","students.txt)
+os.rename("student.txt","students.txt")

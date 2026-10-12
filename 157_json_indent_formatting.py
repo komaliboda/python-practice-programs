@@ -14,4 +14,4 @@ with open("student.json", "w") as file:
 with open("student.json", "r") as file:
     result = json.load(file)
 
-print(student)
+print(result)

@@ -19,3 +19,4 @@ student1.display()
 student2.display()
 student1.check_result()
 student2.check_result()
+
